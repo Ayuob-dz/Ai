@@ -1,0 +1,25 @@
+body {
+    font-family: 'Tajawal', sans-serif;
+}
+
+.hero {
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.btn-primary {
+    background: #ff7b00;
+    border: none;
+}
+.btn-primary:hover {
+    background: #e06b00;
+}
+
+.stat-card {
+    transition: transform 0.3s;
+}
+.stat-card:hover {
+    transform: translateY(-5px);
+}
